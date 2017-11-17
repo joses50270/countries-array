@@ -1,0 +1,10 @@
+var fourLetterCountries = ["Chad", "Cuba", "Greenland", "Iraq", "Mali", "Oman", "India"]
+fourLetterCountries.splice(4, 0, 'Iran')
+fourLetterCountries.pop(6)
+fourLetterCountries.push('Fiji')
+fourLetterCountries.splice(0)
+fourLetterCountries.push('Fiji', 'Oman', 'Mali', 'Iraq', 'Greenland', 'Cuba', 'Chad')
+fourLetterCountries.splice(6)
+fourLetterCountries.splice(4, 1, 'Togo')
+fourLetterCountries.push('Laos')
+console.log(fourLetterCountries)
